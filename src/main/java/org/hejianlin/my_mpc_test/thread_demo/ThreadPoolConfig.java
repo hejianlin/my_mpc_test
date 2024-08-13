@@ -1,11 +1,9 @@
-package org.hejianlin.my_mpc_test.Thread_demo;
+package org.hejianlin.my_mpc_test.thread_demo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-import org.springframework.security.core.context.SecurityContext;
-import org.springframework.security.core.context.SecurityContextHolder;
 
 import java.util.concurrent.ThreadPoolExecutor;
 
