@@ -13,7 +13,7 @@ public class LogAspect {
     /**
      * 定义切点方法
      */
-    @Pointcut("execution(* org.hejianlin.my_mpc_test.aop.jdk_proxy.service.*.*(..))")
+    @Pointcut("execution(* org.hejianlin.my_mpc_test.aop_demo.jdk_proxy.service.*.*(..))")
     private void pointCutMethod(){
 
     }

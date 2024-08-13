@@ -13,7 +13,7 @@ public class CglibLogAspect {
     /**
      * 定义切点方法
      */
-    @Pointcut("execution(* org.hejianlin.my_mpc_test.aop.cglib_proxy.service.*.*(..))")
+    @Pointcut("execution(* org.hejianlin.my_mpc_test.aop_demo.cglib_proxy.service.*.*(..))")
     private void pointCutMethod(){
 
     }
