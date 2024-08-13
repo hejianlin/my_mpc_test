@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.security.dto;
+package org.hejianlin.my_mpc_test.security_demo.dto;
 
 import lombok.Data;
 

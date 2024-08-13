@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.security.filter;
+package org.hejianlin.my_mpc_test.security_demo.filter;
 
 import cn.hutool.jwt.JWTUtil;
 import jakarta.servlet.FilterChain;
@@ -6,7 +6,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
-import org.hejianlin.my_mpc_test.security.constant.MyConstant;
+import org.hejianlin.my_mpc_test.security_demo.constant.MyConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

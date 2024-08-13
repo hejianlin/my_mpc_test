@@ -1,8 +1,8 @@
 package org.hejianlin.my_mpc_test.controller.security;
 
 import cn.hutool.jwt.JWT;
-import org.hejianlin.my_mpc_test.security.constant.MyConstant;
-import org.hejianlin.my_mpc_test.security.dto.SignInReq;
+import org.hejianlin.my_mpc_test.security_demo.constant.MyConstant;
+import org.hejianlin.my_mpc_test.security_demo.dto.SignInReq;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

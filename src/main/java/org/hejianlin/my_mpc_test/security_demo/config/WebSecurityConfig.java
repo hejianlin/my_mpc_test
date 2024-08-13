@@ -1,9 +1,9 @@
-package org.hejianlin.my_mpc_test.security.config;
+package org.hejianlin.my_mpc_test.security_demo.config;
 
-import org.hejianlin.my_mpc_test.security.filter.JwtAuthenticationTokenFilter;
-import org.hejianlin.my_mpc_test.security.handler.MyAccessDeniedHandler;
-import org.hejianlin.my_mpc_test.security.handler.MyUnauthorizedHandler;
-import org.hejianlin.my_mpc_test.security.provider.JwtAuthenticationProvider;
+import org.hejianlin.my_mpc_test.security_demo.filter.JwtAuthenticationTokenFilter;
+import org.hejianlin.my_mpc_test.security_demo.handler.MyAccessDeniedHandler;
+import org.hejianlin.my_mpc_test.security_demo.handler.MyUnauthorizedHandler;
+import org.hejianlin.my_mpc_test.security_demo.provider.JwtAuthenticationProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

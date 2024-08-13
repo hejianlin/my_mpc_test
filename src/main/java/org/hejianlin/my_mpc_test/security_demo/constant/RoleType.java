@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.security.constant;
+package org.hejianlin.my_mpc_test.security_demo.constant;
 
 public enum RoleType {
     ADMIN("ROLE_admin"), USER("ROLE_user");

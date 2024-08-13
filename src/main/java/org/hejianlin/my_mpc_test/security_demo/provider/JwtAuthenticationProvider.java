@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.security.provider;
+package org.hejianlin.my_mpc_test.security_demo.provider;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;

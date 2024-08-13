@@ -1,7 +1,7 @@
-package org.hejianlin.my_mpc_test.security.user_detail;
+package org.hejianlin.my_mpc_test.security_demo.user_detail;
 
 import lombok.RequiredArgsConstructor;
-import org.hejianlin.my_mpc_test.security.dto.User;
+import org.hejianlin.my_mpc_test.security_demo.dto.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
