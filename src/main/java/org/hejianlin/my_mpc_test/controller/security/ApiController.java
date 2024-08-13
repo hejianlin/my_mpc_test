@@ -40,7 +40,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class ApiController {
 
-    //@PreAuthorize("hasRole('user')") 这个好像不生效了？加上去就禁止访问了？
     @PreAuthorize("hasRole('user')")
     @GetMapping("/users/{id}")
     public String getUserDetail(@PathVariable String id){
