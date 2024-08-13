@@ -6,3 +6,9 @@ server:
       enabled: true
       force: true
 
+spring:
+  security:
+    user:
+      name: hello
+      password: hello
+
