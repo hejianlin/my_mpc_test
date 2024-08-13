@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.aop.aspect;
+package org.hejianlin.my_mpc_test.aop_demo.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 

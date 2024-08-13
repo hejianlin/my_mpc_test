@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.aop.jdk_proxy.aspect;
+package org.hejianlin.my_mpc_test.aop_demo.jdk_proxy.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;

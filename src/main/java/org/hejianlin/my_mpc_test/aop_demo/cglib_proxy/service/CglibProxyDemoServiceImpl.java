@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.aop.cglib_proxy.service;
+package org.hejianlin.my_mpc_test.aop_demo.cglib_proxy.service;
 
 import org.springframework.stereotype.Service;
 

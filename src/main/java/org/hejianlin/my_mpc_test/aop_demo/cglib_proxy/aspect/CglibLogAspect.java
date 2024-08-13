@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.aop.cglib_proxy.aspect;
+package org.hejianlin.my_mpc_test.aop_demo.cglib_proxy.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;

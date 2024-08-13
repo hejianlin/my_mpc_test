@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.aop.service;
+package org.hejianlin.my_mpc_test.aop_demo.service;
 
 public class AopDemoServiceImpl {
 

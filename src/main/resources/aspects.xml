@@ -16,12 +16,12 @@
     <aop:aspectj-autoproxy/>
 
     <!-- 目标类 -->
-    <bean id="demoService" class="org.hejianlin.my_mpc_test.aop.service.AopDemoServiceImpl">
+    <bean id="demoService" class="org.hejianlin.my_mpc_test.aop_demo.service.AopDemoServiceImpl">
         <!-- configure properties of bean here as normal -->
     </bean>
 
     <!-- 切面 -->
-    <bean id="logAspect" class="org.hejianlin.my_mpc_test.aop.aspect.LogAspect">
+    <bean id="logAspect" class="org.hejianlin.my_mpc_test.aop_demo.aspect.LogAspect">
         <!-- configure properties of aspect here as normal -->
     </bean>
 
@@ -29,7 +29,7 @@
         <!-- 配置切面 -->
         <aop:aspect ref="logAspect">
             <!-- 配置切入点 -->
-            <aop:pointcut id="pointCutMethod" expression="execution(* org.hejianlin.my_mpc_test.aop.service.*.*(..))"/>
+            <aop:pointcut id="pointCutMethod" expression="execution(* org.hejianlin.my_mpc_test.aop_demo.service.*.*(..))"/>
             <!-- 环绕通知 -->
             <aop:around method="doAround" pointcut-ref="pointCutMethod"/>
             <!-- 前置通知 -->

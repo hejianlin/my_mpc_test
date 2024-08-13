@@ -1,4 +1,4 @@
-package org.hejianlin.my_mpc_test.aop.jdk_proxy.service;
+package org.hejianlin.my_mpc_test.aop_demo.jdk_proxy.service;
 
 import org.springframework.stereotype.Service;
 

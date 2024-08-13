@@ -1,8 +1,8 @@
-package org.hejianlin.my_mpc_test.aop;
+package org.hejianlin.my_mpc_test.aop_demo;
 
-import org.hejianlin.my_mpc_test.aop.cglib_proxy.service.CglibProxyDemoServiceImpl;
-import org.hejianlin.my_mpc_test.aop.jdk_proxy.service.IJdkProxyService;
-import org.hejianlin.my_mpc_test.aop.service.AopDemoServiceImpl;
+import org.hejianlin.my_mpc_test.aop_demo.cglib_proxy.service.CglibProxyDemoServiceImpl;
+import org.hejianlin.my_mpc_test.aop_demo.jdk_proxy.service.IJdkProxyService;
+import org.hejianlin.my_mpc_test.aop_demo.service.AopDemoServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
