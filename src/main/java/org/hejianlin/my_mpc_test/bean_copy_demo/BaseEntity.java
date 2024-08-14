@@ -13,7 +13,7 @@ import java.util.Set;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-public abstract class BaseEntity implements Serializable {
+public class BaseEntity implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @JsonIgnore
